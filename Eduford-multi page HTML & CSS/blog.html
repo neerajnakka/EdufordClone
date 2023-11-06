@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduford University</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-xmark" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+    <!-- blog Page Ocontent-->
+
+    <div class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="certificate.jpg" />
+          <h2>Our Certificate & Online Programs For 2024</h2>
+          <p>
+            ur part-time undergraduate certificates are equivalent to, or taught
+            at, first-year undergraduate level. Certificates are offered in:
+            English Literature (two study options available, inluding a
+            mostly-online pathway) History Archaeology History of Art
+            Theological Studies As well as these we also offer the Undergraduate
+            Certificate of Higher Education. With this flexible programme you
+            gain credit from taking short courses and attending the Oxford
+            University Summer School for Adults (OUSSA). You study a main
+            subject discipline, but also undertake study in other academic
+            subjects.
+          </p>
+          <br />
+          <p>
+            The Department offers a range of part-time postgraduate study
+            options in an array of subject areas. Certificates, diplomas,
+            masters' degrees and DPhil (PhD) programmes are a great way to
+            further your study, progress in your career or learn for personal
+            enrichment. Programme formats and delivery vary but some are taught
+            mostly online, while others are formed of online study with short
+            residencies in Oxford. Find the right course for you using the
+            subject list below, or learn more about the different postgraduate
+            course levels we offer.
+          </p>
+          <br />
+          <p>
+            Humanities and cultural studies Applied Landscape Archaeology (MSc)
+            Archaeology (DPhil) Architectural History (PGCert and DPhil)
+            Creative Writing (MSt) Diplomatic Studies (MSt, full-time) English
+            Local History (MSc and DPhil) History of Design (MSt) Historical
+            Studies (PGCert and MSt) Literature and Arts (MSt and DPhil)
+            Practical Ethics (MSt)
+          </p>
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+
+              <input type="email" placeholder="Enter Email" />
+              <textarea roes="5" placeholder="your comment"> </textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div><span>Data Science</span> <span>28</span></div>
+          <div><span>Machine Learning</span> <span>40</span></div>
+
+          <div>
+            <span>Computer Science</span>
+            <span>120</span>
+          </div>
+          <div><span>Cyber Security</span> <span>60</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--  FOOTER-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Our Vision. A global university, focused on innovation, research,
+        academic excellence and creativity.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa-solid fa-heart"></i>Neeraj</p>
+    </section>
+
+    <!-- javascript for opening close and open menu for media queries for mobiles-->
+    <script>
+      var navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
